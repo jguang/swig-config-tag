@@ -1,0 +1,23 @@
+{
+  "name": "swig-config-tag",
+  "version": "1.0.0",
+  "description": "swig模板载入配置数据",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jguang/swig-config-tag.git"
+  },
+  "keywords": [
+    "swig",
+    "config"
+  ],
+  "author": "jguang001@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jguang/swig-config-tag/issues"
+  },
+  "homepage": "https://github.com/jguang/swig-config-tag#readme"
+}
