@@ -1,6 +1,6 @@
 {
   "name": "swig-config-tag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "swig模板载入配置数据",
   "main": "index.js",
   "scripts": {

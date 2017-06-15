@@ -7,12 +7,10 @@ const path = require('path');
 
 
 exports.compile = function (compiler, args, content, parents, options, blockName) {
-    // var ss = require(args[2]);
-    // console.log(options.filename);
     try{
         var configFile = args[2].replace(/\"/gi, "");
         var configFilePath = path.normalize(configFile);
-        var dirPath = path.dirname(options.filename);
+        var dirPath = path.dirname(parents[0].name);
         var configPath = path.resolve(dirPath, configFilePath);
         var config = require(configPath);
         args[2] = JSON.stringify(config);
